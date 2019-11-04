@@ -1,0 +1,36 @@
+1.	/dev - znajdujące się tutaj pliki nie są faktycznie plikami na dysku,lecz odnoszą się do urządzeń
+za ich pośrednictwem system komunikuje się z urządzeniami (komunikacja niskopoziomowa) 
+	
+	/proc - wirtualny katalog, zawierający dane o aktualnie uruchomionych procesach 
+
+procesor:  cat /proc/cpuinfo
+partycje:  cat /proc/partitions
+pamięć:    cat /proc/meminfo
+
+sudo dd if=/dev/sda1 bs=512 count=1 | hexdump -C > out1
+
+2. man ps
+ps -p [lista id] wybor przez podanie id procesow
+ps -t [lista tty] wybor przez podanie listy tty
+
+(PID procesu i rodzica, stan procesu, priorytet, nice, ilość pamięci, zużycie czasu procesora)
+ps -o pid,ppid,state,priority,nice,%mem,%cpu
+tty -> sprawdza jakie urządzenie tty wykorzystują
+
+tty
+ps ax | grep $$
+
+3. -pedantic  zgodność ze standardami ISO C
+   -Wall 	 włącza wszystkie ostrzeżenia o konstrukcji
+   
+   
+4. sleep 1000 & - uruchamianie w tle
+jobs - pokazuje procesy rozpoczęte z aktualnego terminala
+Ctrl Z - stopuje proces
+fg - odpala zatrzymany proces i wrzuca na wierzch
+bg - odpala zatrzymany proces i wrzuca w tło
+kill -9 <Process ID>
+
+5. mkfifo pipe1
+   cat > pipe1
+   cat < pipe1

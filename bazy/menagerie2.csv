@@ -1,0 +1,18 @@
+name;owner;species;sex;birth;death;date;type;remark
+Fluffy;Harold;cat;f;04.02.1993;\N;15.05.1995;litter;4 kittens, 3 female, 1 male
+Buffy;Harold;dog;f;13.05.1989;\N;23.06.1993;litter;5 puppies, 2 female, 3 male
+Buffy;Harold;dog;f;13.05.1989;\N;19.06.1994;litter;3 puppies, 3 female
+Chirpy;Gwen;bird;f;11.09.1998;\N;21.03.1999;vet;needed beak straightened
+Slim;Benny;snake;m;29.04.1996;\N;03.08.1997;vet;broken rib
+Bowser;Diane;dog;m;31.08.1979;29.07.1995;12.10.1991;kennel;\N
+Fang;Benny;dog;m;27.08.1990;\N;12.10.1991;kennel;\N
+Fang;Benny;dog;m;27.08.1990;\N;28.08.1998;birthday;Gave him a new chew toy
+Claws;Gwen;cat;m;17.03.1994;\N;17.03.1998;birthday;Gave him a new flea collar
+Whistler;Gwen;bird;\N;09.12.1997;\N;09.12.1998;birthday;First birthday
+Alex;Bob;dog;f;04.06.1992;\N;04.06.1992;birthday;\N
+Rex;Bob;dog;f;03.07.1994;\N;03.07.1994;birthday;\N
+Dylan;Alice;hamster;f;24.04.1995;\N;24.04.1995;birthday;\N
+Alex;Joe;sheep;f;14.02.1996;\N;14.02.1996;birthday;\N
+Alex;Joe;goat;f;03.07.1994;\N;03.07.1994;birthday;\N
+Zoe;Joe;goat;f;03.07.1994;\N;03.07.1994;birthday;\N
+Bobby;Joe;goat;f;03.07.1994;\N;03.07.1994;birthday;\N

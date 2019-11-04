@@ -1,0 +1,103 @@
+1. SHOW TABLES;
+
+2. SELECT owner, name FROM pet;
+
+3. SELECT birth FROM pet WHERE species = 'dog';
+
+4. SELECT name, owner FROM pet WHERE species = 'dog' AND Month(birth) <= 6;
+
+5. SELECT species FROM pet WHERE sex = 'm' GROUP BY species;
+
+6. SELECT name, date FROM event WHERE type = 'birthday' and remark LIKE '%gave%';
+
+7. SELECT DISTINCT owner FROM pet WHERE name LIKE '%ffy';
+
+8. SELECT owner, name FROM pet WHERE death is NULL;
+
+9. SELECT owner FROM pet GROUP BY owner WHERE death is NULL HAVING Count(*) > 1;
+
+10. SELECT name, owner FROM pet WHERE species='dog' AND name NOT IN 
+	(SELECT name FROM event WHERE type = 'birthday')
+	AND death IS NULL ORDER BY name DESC;
+	
+11. SELECT name FROM pet WHERE birth BETWEEN '1992-01-01' AND '1994-06-30'; 
+
+12. SELECT name FROM pet WHERE death IS NULL ORDER BY birth ASC LIMIT 2;
+
+13. SELECT name FROM pet WHERE birth = (SELECT MAX(birth) FROM pet);
+
+14. SELECT DISTINCT pet.owner FROM EVENT INNER JOIN pet ON event.name=pet.name
+	WHERE event.date > (SELECT date FROM event WHERE name='Slim' AND type='vet');
+
+15. SELECT DISTINCT owner FROM pet WHERE owner NOT IN 
+	(SELECT owner FROM pet WHERE name IN 
+	(SELECT name FROM event WHERE type='birthday'))
+	ORDER BY birth ASC;    	
+
+--SELECT owner FROM pet WHERE owner NOT IN (SELECT owner FROM pet WHERE death is NULL AND Month(birth)=Month(CURDATE()) AND Day(birth)=Day(CURDATE()));
+
+16. SELECT DISTINCT T1.owner, T2.owner FROM pet T1
+	INNER JOIN pet T2 ON T1.species = T2.species
+	WHERE T1.owner < T2.owner;
+
+17. ALTER TABLE event ADD performer VARCHAR(50) AFTER date;
+
+18. UPDATE event JOIN pet ON pet.name = event.name SET performer = pet.owner WHERE type NOT IN ('vet','litter');
+    ALTER TABLE event ADD id INT AUTO_INCREMENT PRIMARY KEY BEFORE name;
+
+
+CREATE TABLE Nazwiska( id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(30) NOT NULL );
+INSERT Nazwiska(name)
+VALUES ('Joe'),
+	   ('Moe'),
+	   ('Zoe');
+
+
+DROP PROCEDURE IF EXISTS generate;
+
+delimiter $$
+
+CREATE procedure generate()
+BEGIN
+  DECLARE x INT default 0;	
+  DECLARE nazwiska_size INT default 0;
+  DECLARE random_index INT default 0;
+  SET nazwiska_size = (SELECT COUNT(*) FROM nazwiska);
+  SET x = 1;
+  WHILE x <= (SELECT COUNT(*) FROM event) DO
+	SET random_index = ( SELECT (FLOOR(RAND()*(nazwiska_size))+1) ); 
+	UPDATE event SET performer = (SELECT name FROM nazwiska WHERE id = random_index) WHERE performer IS NULL AND id = x;
+    SET x = x + 1;
+  END WHILE;
+END$$
+
+CALL generate();
+
+//UPDATE event SET performer = NULL WHERE performer LIKE "%oe";
+
+19. UPDATE pet SET owner='Diane' WHERE species='cat';
+
+20. SELECT species, COUNT(*) as ilosc FROM pet WHERE death IS NULL GROUP BY species ORDER BY ilosc DESC;
+
+21. DELETE FROM event WHERE name IN (SELECT name FROM pet WHERE death IS NOT NULL);
+	DELETE FROM pet WHERE death IS NOT NULL;
+
+22. ALTER TABLE pet DROP COLUMN death;
+
+23. INSERT INTO pet(name, owner, species, sex, birth)
+	VALUES ('Pies 1', 'Ala', 'dog', 'm', '1998-02-12'),
+		   ('Pies 2', 'Ala', 'dog', 'm', '1995-03-11'),
+		   ('Chomik', 'Bartek', 'hamster', 'f', '1997-03-23'),
+		   ('Koza 1', 'Czarek', 'goat', 'f', '1997-05-26'),
+		   ('Koza 2', 'Czarek', 'goat', 'm', '1997-05-26'),
+		   ('Koza 3', 'Czarek', 'goat', 'f', '1997-05-26')
+		   ('Owca',   'Czarek', 'sheep', 'm', '1998-01-08');
+		   
+	INSERT INTO event(name, date, performer, type, remark)
+	VALUES ('Pies 1','1999-01-01','John','vet','broken leg'),
+		   ('Pies 2','1999-01-02','Tom', 'vet','broken rib'),
+		   ('Chomik','1999-01-03','John','vet','broken leg'),
+		   ('Koza 1','1999-01-04','John','vet','broken rib'),
+		   ('Koza 2','1999-01-05','Tom', 'vet','broken leg'),
+		   ('Koza 3','1999-01-06','John','vet','broken rib'),
+		   ('Owca',  '1999-01-07','Tom', 'vet','broken leg');

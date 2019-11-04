@@ -1,0 +1,315 @@
+1.
+CREATE DATABASE Hobby;
+CREATE USER 2 IDENTIFIED BY '321052';
+GRANT INSERT, SELECT, UPDATE ON Hobby.* TO 'michal23'@'localhost';
+ 
+--------------------------------------------------------------------
+2.
+ 
+CREATE TABLE osoba(
+   id INT NOT NULL AUTO_INCREMENT,
+   imię VARCHAR(20) NOT NULL,
+   dataUrodzenia date NOT NULL CHECK(  TIMESTAMPDIFF(YEAR, dataUrodzenia, '2019-10-31') >= 18  ),
+   plec CHAR(1) NOT NULL,      
+   PRIMARY KEY (id)
+);
+
+ALBO Z TRIGGEREM:
+
+CREATE TABLE osoba(
+   id INT NOT NULL AUTO_INCREMENT,
+   imię VARCHAR(20) NOT NULL,
+   dataUrodzenia date NOT NULL,
+   plec CHAR(1) NOT NULL,      
+   PRIMARY KEY (id)
+);
+
+DELIMITER $$
+CREATE TRIGGER pelnoletnoscCheck
+BEFORE INSERT ON osoba
+FOR EACH ROW
+BEGIN
+	IF TIMESTAMPDIFF(YEAR, NEW.dataUrodzenia, CURDATE()) < 18  THEN
+		SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Uzytkownik nie jest pelnoletni!';
+	END IF;
+END$$
+DELIMITER ;  
+
+
+--------------------------------------------------------------------
+
+
+CREATE TABLE sport(
+   id INT NOT NULL AUTO_INCREMENT,
+   nazwa VARCHAR(20) NOT NULL,
+   typ enum('indywidualny', 'drużynowy', 'mieszany') NOT NULL DEFAULT 'drużynowy',
+   lokacja VARCHAR(20),      
+   PRIMARY KEY (id)
+);
+
+CREATE TABLE nauka(
+   id INT NOT NULL AUTO_INCREMENT,
+   nazwa VARCHAR(20) NOT NULL,
+   lokacja VARCHAR(20),      
+   PRIMARY KEY (id)
+);
+
+CREATE TABLE inne(
+   id INT NOT NULL AUTO_INCREMENT,
+   nazwa VARCHAR(20) NOT NULL,
+   lokacja VARCHAR(20),
+   towarzysze BOOL NOT NULL DEFAULT TRUE,
+   PRIMARY KEY (id)
+);
+
+CREATE TABLE hobby(	
+   id INT NOT NULL,
+   osoba INT NOT NULL,
+   typ enum('sport', 'nauka', 'inne') NOT NULL,     
+   PRIMARY KEY (id, osoba, typ)
+);
+
+--------------------------------------------------------------------
+3.
+CREATE TABLE zwierzak LIKE menagerie.pet;
+INSERT INTO zwierzak SELECT * FROM menagerie.pet;
+
+INSERT INTO osoba(imię, dataUrodzenia, plec)
+SELECT owner,
+DATE_FORMAT(
+	FROM_UNIXTIME(
+		unix_timestamp('1990-1-1') + floor(
+			rand() * (unix_timestamp('1999-12-31') - unix_timestamp('1990-1-1') + 1)
+		)
+	),
+	'%Y-%m-%d'),
+ELT(FLOOR(RAND()*2)+1,'m','f')
+FROM menagerie.pet;
+
+
+4. 
+ALTER TABLE osoba ADD COLUMN nazwisko VARCHAR(50) AFTER imię;
+
+ALTER TABLE zwierzak ADD COLUMN ownerID INT;
+
+UPDATE zwierzak INNER JOIN osoba ON zwierzak.owner = osoba.imię SET zwierzak.ownerID = osoba.id;
+
+ALTER TABLE zwierzak DROP COLUMN owner;
+
+5. 
+ALTER TABLE zwierzak ADD FOREIGN KEY (ownerID) REFERENCES osoba(id); 
+ALTER TABLE hobby ADD FOREIGN KEY (osoba) REFERENCES osoba(id); 
+
+6.
+ALTER TABLE inne AUTO_INCREMENT = 7000;
+
+
+7.
+
+DELIMITER $$
+CREATE PROCEDURE generuj (
+    IN name VARCHAR(25),
+	IN num INT
+)
+BEGIN
+	DECLARE counter INT DEFAULT 0;
+	DECLARE zajecie enum('sport', 'nauka', 'inne') DEFAULT 'sport';
+	DECLARE zajecieID INT DEFAULT 0;
+	DECLARE osobaID INT DEFAULT 0;
+	countLoop: LOOP
+		IF counter<num THEN
+			IF name='osoba' THEN
+				INSERT INTO osoba VALUES (NULL, LEFT(MD5(RAND()),6), LEFT(MD5(RAND()),6), (SELECT date FROM randomDate), ELT(FLOOR(RAND()*2)+1,'m','f'));
+			ELSEIF name='sport' THEN
+				INSERT INTO sport VALUES (NULL, LEFT(MD5(RAND()),6), ELT(FLOOR(RAND()*3)+1,'indywidualny', 'drużynowy', 'mieszany'), LEFT(MD5(RAND()),6));
+			ELSEIF name='nauka' THEN
+				INSERT INTO nauka VALUES (NULL, LEFT(MD5(RAND()),6), LEFT(MD5(RAND()),6));
+			ELSEIF name='inne' THEN
+				INSERT INTO inne VALUES (NULL, LEFT(MD5(RAND()),6), LEFT(MD5(RAND()),6), ELT(FLOOR(RAND()*2)+1, TRUE, FALSE) );
+			ELSEIF name='hobby' THEN
+				SET zajecie = (SELECT ELT(FLOOR(RAND()*3)+1, 'sport', 'nauka', 'inne'));
+				SET osobaID = (SELECT id FROM osoba ORDER BY RAND() LIMIT 1);
+				
+				IF zajecie='sport' THEN
+					SET zajecieID = (SELECT id FROM sport ORDER BY RAND() LIMIT 1);
+				ELSEIF zajecie='nauka' THEN
+					SET zajecieID = (SELECT id FROM nauka ORDER BY RAND() LIMIT 1);
+				ELSEIF zajecie='inne' THEN
+					SET zajecieID = (SELECT id FROM inne ORDER BY RAND() LIMIT 1);
+				END IF;
+				INSERT INTO hobby VALUES (zajecieID,osobaID,zajecie);	
+			END IF;
+			SET counter = counter + 1;
+			ITERATE countLoop;
+		END IF;
+		LEAVE countLoop;
+	END LOOP countLoop;
+END$$
+DELIMITER ;		
+
+	
+
+CREATE VIEW randomDate AS SELECT DATE_FORMAT(
+	FROM_UNIXTIME(
+		unix_timestamp('1990-1-1') + floor(
+			rand() * (unix_timestamp('1999-12-31') - unix_timestamp('1990-1-1') + 1)
+		)
+	),
+	'%Y-%m-%d') AS date;
+	
+
+
+CALL generuj('osoba', 1000);
+CALL generuj('sport', 300);
+CALL generuj('nauka', 300);
+CALL generuj('inne', 550);
+CALL generuj('hobby', 1300);
+
+
+8.
+
+CREATE VIEW polaczoneHobby AS 
+(
+	(SELECT id, nazwa, 'sport' AS kategoria FROM sport)
+	UNION (SELECT id, nazwa, 'nauka' AS kategoria FROM nauka)
+	UNION (SELECT id, nazwa, 'inne' AS kategoria FROM inne)
+);
+PREPARE query FROM  'SELECT DISTINCT nazwa FROM polaczoneHobby WHERE (id, kategoria) IN (SELECT id, typ FROM hobby WHERE hobby.typ=? AND hobby.osoba=?)';
+@typ = 'sport';
+@id = 644;
+EXECUTE query USING @typ, @id;
+
+| 152523 |
+| cf1f03 |
+| fdc767 |
+| ac0726 |
+
+
+9.
+
+DELIMITER $$
+CREATE PROCEDURE pokazHobby (
+	IN userID INT
+)
+BEGIN
+	SELECT DISTINCT nazwa FROM polaczoneHobby WHERE (id, kategoria) IN (SELECT id, typ FROM hobby WHERE hobby.osoba=userID);
+END$$
+DELIMITER ;		
+
+CALL pokazHobby(644);
+
+10.
+
+DELIMITER $$
+CREATE PROCEDURE pokazHobby2 (
+	IN userID INT
+)
+BEGIN
+	(SELECT DISTINCT nazwa FROM polaczoneHobby WHERE (id, kategoria) IN (SELECT id, typ FROM hobby WHERE hobby.osoba=userID))
+	UNION (SELECT DISTINCT species as nazwa FROM zwierzak WHERE ownerID = userID);
+END$$
+DELIMITER ;	
+
+
+11.
+
+DELIMITER $$
+CREATE TRIGGER zad11 BEFORE INSERT ON hobby
+FOR EACH ROW
+BEGIN
+	INSERT IGNORE INTO osoba VALUES (NEW.osoba, LEFT(MD5(RAND()),6), LEFT(MD5(RAND()),6), (SELECT date FROM randomDate), ELT(FLOOR(RAND()*2)+1,'m','f'));
+	IF NEW.typ='sport' THEN
+		INSERT IGNORE INTO sport VALUES (NEW.id, LEFT(MD5(RAND()),6), ELT(FLOOR(RAND()*3)+1,'indywidualny', 'drużynowy', 'mieszany'), LEFT(MD5(RAND()),6));
+	ELSEIF NEW.typ='nauka' THEN
+		INSERT IGNORE INTO nauka VALUES (NEW.id, LEFT(MD5(RAND()),6), LEFT(MD5(RAND()),6));
+	ELSEIF NEW.typ='inne' THEN
+		INSERT IGNORE INTO inne VALUES (NEW.id, LEFT(MD5(RAND()),6), LEFT(MD5(RAND()),6), ELT(FLOOR(RAND()*2)+1, TRUE, FALSE) );
+	END IF;
+END$$
+DELIMITER ;
+
+
+12.
+
+DELIMITER $$
+CREATE TRIGGER zad12 AFTER DELETE ON sport
+FOR EACH ROW
+BEGIN
+	DELETE FROM hobby WHERE hobby.id = OLD.ID AND hobby.typ = 'sport';
+END$$
+DELIMITER ;
+
+
+13.
+
+DELIMITER $$
+CREATE TRIGGER zad13 BEFORE DELETE ON nauka
+FOR EACH ROW
+BEGIN
+	DELETE FROM hobby WHERE hobby.id = OLD.ID AND hobby.typ = 'nauka';
+END$$
+DELIMITER ;
+
+DELIMITER $$
+CREATE TRIGGER zad13 BEFORE UPDATE ON nauka
+FOR EACH ROW
+BEGIN
+	IF OLD.nazwa <> NEW.nazwa THEN
+		DELETE FROM hobby WHERE hobby.id = OLD.ID AND hobby.typ = 'nauka';
+	END IF;
+END$$
+DELIMITER ;
+
+14.
+
+DELIMITER $$
+CREATE TRIGGER zad14 BEFORE DELETE ON osoba
+FOR EACH ROW
+BEGIN
+	DELETE FROM hobby WHERE hobby.id = OLD.ID;
+	UPDATE zwierzak SET ownerID = (SELECT id FROM osoba ORDER BY RAND() LIMIT 1) WHERE zwierzak.ownerID = OLD.ID;
+END$$
+DELIMITER ;
+
+15. tak?
+
+16.
+
+CREATE VIEW hobbyInfo AS (Select typ, COUNT(*) AS ilosc FROM hobby GROUP BY typ);
+
+17.
+
+DELIMITER $$
+CREATE FUNCTION liczHobby (userID INT)
+RETURNS INT DETERMINISTIC
+BEGIN
+	DECLARE count INT;
+	SET count = (SELECT COUNT(*) AS ilosc FROM (SELECT DISTINCT nazwa FROM polaczoneHobby WHERE (id, kategoria) IN (SELECT id, typ FROM hobby WHERE hobby.osoba=userID)) AS TMP3);
+	RETURN count;
+END$$
+DELIMITER ;	
+
+DELIMITER $$
+CREATE FUNCTION liczZwierzaki (userID INT)
+RETURNS INT DETERMINISTIC
+BEGIN
+	DECLARE count INT;
+	SET count = (SELECT COUNT(*) AS ilosc FROM (SELECT DISTINCT species as nazwa FROM zwierzak WHERE zwierzak.ownerID = userID) AS TMP3);
+	RETURN count;
+END$$
+DELIMITER ;	
+
+
+CREATE VIEW hobbyUser AS ( SELECT id,imię, liczHobby(id) as iloscHobby, liczZwierzaki(id) as iloscZwierzaki  FROM osoba);
+
+18.
+
+DELIMITER $$
+CREATE PROCEDURE zad19 (OUT out_imie VARCHAR(20), OUT out_wiek INT)
+BEGIN
+	DECLARE count INT;
+	SELECT imię, TIMESTAMPDIFF(YEAR, osoba.dataUrodzenia, CURDATE()) INTO @imie, @wiek FROM osoba WHERE osoba.id = (SELECT id from hobbyUser ORDER BY iloscHobby DESC LIMIT 1);
+	SET out_imie = @imie;
+	SET out_wiek = @wiek;
+END$$
+DELIMITER ;	
