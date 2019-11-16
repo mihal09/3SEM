@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class MockingLoader implements ILoader {
     public void load() {
-        System.out.println("ŁADUJE");
         ArrayList<Klient> klienci = new ArrayList<Klient>();
         Klient k1 = new Klient("a","a","a");
         Klient k2 = new Klient("b","b","b");

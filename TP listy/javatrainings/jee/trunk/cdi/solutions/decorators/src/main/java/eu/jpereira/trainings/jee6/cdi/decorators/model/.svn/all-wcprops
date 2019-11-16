@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/decorators/src/main/java/eu/jpereira/trainings/jee6/cdi/decorators/model
+END
+Account.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/decorators/src/main/java/eu/jpereira/trainings/jee6/cdi/decorators/model/Account.java
+END
+StandardAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/decorators/src/main/java/eu/jpereira/trainings/jee6/cdi/decorators/model/StandardAccount.java
+END
+ThiefAccountDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/decorators/src/main/java/eu/jpereira/trainings/jee6/cdi/decorators/model/ThiefAccountDecorator.java
+END
+StudentAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/decorators/src/main/java/eu/jpereira/trainings/jee6/cdi/decorators/model/StudentAccount.java
+END
+GoodAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/decorators/src/main/java/eu/jpereira/trainings/jee6/cdi/decorators/model/GoodAccount.java
+END
+StudentAccountDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/decorators/src/main/java/eu/jpereira/trainings/jee6/cdi/decorators/model/StudentAccountDecorator.java
+END
+AccountManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/decorators/src/main/java/eu/jpereira/trainings/jee6/cdi/decorators/model/AccountManager.java
+END
+GoodAccountDecorator.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/decorators/src/main/java/eu/jpereira/trainings/jee6/cdi/decorators/model/GoodAccountDecorator.java
+END

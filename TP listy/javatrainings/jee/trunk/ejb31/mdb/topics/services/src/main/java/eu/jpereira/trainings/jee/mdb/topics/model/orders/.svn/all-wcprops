@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/topics/services/src/main/java/eu/jpereira/trainings/jee/mdb/topics/model/orders
+END
+SellOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/topics/services/src/main/java/eu/jpereira/trainings/jee/mdb/topics/model/orders/SellOrder.java
+END
+SellOrders.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/topics/services/src/main/java/eu/jpereira/trainings/jee/mdb/topics/model/orders/SellOrders.java
+END
+SellOrderStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/topics/services/src/main/java/eu/jpereira/trainings/jee/mdb/topics/model/orders/SellOrderStatus.java
+END
+DefaultSellOrdersDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/topics/services/src/main/java/eu/jpereira/trainings/jee/mdb/topics/model/orders/DefaultSellOrdersDAO.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/330/jee/trunk/persistence/modelling/model/src/main/java/eu/jpereira/trainings/jee/persistence/model/items
+END
+SellableItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/330/jee/trunk/persistence/modelling/model/src/main/java/eu/jpereira/trainings/jee/persistence/model/items/SellableItem.java
+END
+ItemDimensions.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/330/jee/trunk/persistence/modelling/model/src/main/java/eu/jpereira/trainings/jee/persistence/model/items/ItemDimensions.java
+END
+SoftwareItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/330/jee/trunk/persistence/modelling/model/src/main/java/eu/jpereira/trainings/jee/persistence/model/items/SoftwareItem.java
+END
+ShippingCalulatorStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/317/jee/trunk/persistence/modelling/model/src/main/java/eu/jpereira/trainings/jee/persistence/model/items/ShippingCalulatorStrategy.java
+END
+PhysicalItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/330/jee/trunk/persistence/modelling/model/src/main/java/eu/jpereira/trainings/jee/persistence/model/items/PhysicalItem.java
+END
+DigitalItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/330/jee/trunk/persistence/modelling/model/src/main/java/eu/jpereira/trainings/jee/persistence/model/items/DigitalItem.java
+END
+EBookItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/330/jee/trunk/persistence/modelling/model/src/main/java/eu/jpereira/trainings/jee/persistence/model/items/EBookItem.java
+END

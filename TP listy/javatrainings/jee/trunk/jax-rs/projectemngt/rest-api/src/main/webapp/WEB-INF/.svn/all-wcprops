@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/rest-api/src/main/webapp/WEB-INF
+END
+jboss-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/rest-api/src/main/webapp/WEB-INF/jboss-web.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/rest-api/src/main/webapp/WEB-INF/web.xml
+END
+beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/rest-api/src/main/webapp/WEB-INF/beans.xml
+END

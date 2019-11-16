@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/192/jee/trunk/cdi/exercises/decorators/src/main/webapp/WEB-INF
+END
+faces-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/192/jee/trunk/cdi/exercises/decorators/src/main/webapp/WEB-INF/faces-config.xml
+END
+beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/192/jee/trunk/cdi/exercises/decorators/src/main/webapp/WEB-INF/beans.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/192/jee/trunk/cdi/exercises/decorators/src/main/webapp/WEB-INF/web.xml
+END

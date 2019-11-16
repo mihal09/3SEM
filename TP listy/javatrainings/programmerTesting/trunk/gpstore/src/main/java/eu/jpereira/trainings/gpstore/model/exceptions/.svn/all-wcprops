@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/7/programmerTesting/trunk/gpstore/src/main/java/eu/jpereira/trainings/gpstore/model/exceptions
+END
+NoSuchDepartmentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/7/programmerTesting/trunk/gpstore/src/main/java/eu/jpereira/trainings/gpstore/model/exceptions/NoSuchDepartmentException.java
+END
+NoSuchSalealeItemExistsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/7/programmerTesting/trunk/gpstore/src/main/java/eu/jpereira/trainings/gpstore/model/exceptions/NoSuchSalealeItemExistsException.java
+END
+DuplicateItemCategoryException.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/7/programmerTesting/trunk/gpstore/src/main/java/eu/jpereira/trainings/gpstore/model/exceptions/DuplicateItemCategoryException.java
+END
+NoSuchItemCategoryException.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/7/programmerTesting/trunk/gpstore/src/main/java/eu/jpereira/trainings/gpstore/model/exceptions/NoSuchItemCategoryException.java
+END
+DuplicateDepartmentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/7/programmerTesting/trunk/gpstore/src/main/java/eu/jpereira/trainings/gpstore/model/exceptions/DuplicateDepartmentException.java
+END

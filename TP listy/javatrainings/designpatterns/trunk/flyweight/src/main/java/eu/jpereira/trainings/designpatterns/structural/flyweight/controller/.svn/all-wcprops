@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/82/designpatterns/trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/controller
+END
+WeatherStationController.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/82/designpatterns/trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/controller/WeatherStationController.java
+END
+HumiditySensor.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/76/designpatterns/trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/controller/HumiditySensor.java
+END
+TemperatureSensor.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/76/designpatterns/trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/controller/TemperatureSensor.java
+END
+Sensor.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/76/designpatterns/trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/controller/Sensor.java
+END
+WindSensor.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/76/designpatterns/trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/controller/WindSensor.java
+END
+WeatherStationControllerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/!svn/ver/76/designpatterns/trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/controller/WeatherStationControllerFactory.java
+END

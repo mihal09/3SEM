@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/165/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/mapper
+END
+ApplianceEventMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/165/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/mapper/ApplianceEventMapper.java
+END
+EventMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/164/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/mapper/EventMapper.java
+END
+LinkedListQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/164/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/mapper/LinkedListQueue.java
+END
+MapperChain.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/164/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/mapper/MapperChain.java
+END
+AbstractEventMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/164/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/mapper/AbstractEventMapper.java
+END

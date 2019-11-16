@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/112/designpatterns/trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions
+END
+CouldNotConnectException.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/112/designpatterns/trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/CouldNotConnectException.java
+END
+NotUniqueDBInstanceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/!svn/ver/112/designpatterns/trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/NotUniqueDBInstanceException.java
+END
+CouldNotStartInstanceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/!svn/ver/112/designpatterns/trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/CouldNotStartInstanceException.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/288/jee/trunk/ejb31/statemngt/exercise
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/287/jee/trunk/ejb31/statemngt/exercise/pom.xml
+END
+deploy_jboss.bat
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/287/jee/trunk/ejb31/statemngt/exercise/deploy_jboss.bat
+END
+package-skip-tests.bat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/287/jee/trunk/ejb31/statemngt/exercise/package-skip-tests.bat
+END
+deploy_jboss.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/287/jee/trunk/ejb31/statemngt/exercise/deploy_jboss.sh
+END

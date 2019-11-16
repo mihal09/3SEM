@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/164/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/interpreter
+END
+JSONEventDataInterpreter.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/164/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/interpreter/JSONEventDataInterpreter.java
+END
+EventDataInterpreter.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/164/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/interpreter/EventDataInterpreter.java
+END

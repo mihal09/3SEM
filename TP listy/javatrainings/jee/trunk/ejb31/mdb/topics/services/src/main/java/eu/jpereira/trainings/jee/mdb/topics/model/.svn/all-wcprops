@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/topics/services/src/main/java/eu/jpereira/trainings/jee/mdb/topics/model
+END
+ModelNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/topics/services/src/main/java/eu/jpereira/trainings/jee/mdb/topics/model/ModelNotFoundException.java
+END
+PersistenteDomainObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/topics/services/src/main/java/eu/jpereira/trainings/jee/mdb/topics/model/PersistenteDomainObject.java
+END
+BasicDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/topics/services/src/main/java/eu/jpereira/trainings/jee/mdb/topics/model/BasicDAO.java
+END
+PersistenteDomainObjectDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/topics/services/src/main/java/eu/jpereira/trainings/jee/mdb/topics/model/PersistenteDomainObjectDAO.java
+END

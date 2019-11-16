@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/112/designpatterns/trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results
+END
+QueryInstanceStatusResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/!svn/ver/112/designpatterns/trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/QueryInstanceStatusResult.java
+END
+DBServerInstanceResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/109/designpatterns/trunk/command/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/command/model/command/results/DBServerInstanceResult.java
+END

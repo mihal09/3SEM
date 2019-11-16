@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/interceptors/src/main/java/eu/jpereira/trainings/jee6/cdi/interceptors/qualifiers
+END
+RandomNumber.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/interceptors/src/main/java/eu/jpereira/trainings/jee6/cdi/interceptors/qualifiers/RandomNumber.java
+END
+JokerLottery.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/interceptors/src/main/java/eu/jpereira/trainings/jee6/cdi/interceptors/qualifiers/JokerLottery.java
+END
+EuroMillionLottery.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/interceptors/src/main/java/eu/jpereira/trainings/jee6/cdi/interceptors/qualifiers/EuroMillionLottery.java
+END
+IntegerSequenceList.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/interceptors/src/main/java/eu/jpereira/trainings/jee6/cdi/interceptors/qualifiers/IntegerSequenceList.java
+END
+StringKeyLottery.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/interceptors/src/main/java/eu/jpereira/trainings/jee6/cdi/interceptors/qualifiers/StringKeyLottery.java
+END
+RandomString.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/interceptors/src/main/java/eu/jpereira/trainings/jee6/cdi/interceptors/qualifiers/RandomString.java
+END

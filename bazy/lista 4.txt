@@ -1,0 +1,186 @@
+1.
+CREATE FULLTEXT INDEX indexOsobaImie ON osoba ( imię );
+CREATE INDEX indexOsobaImie2 ON osoba ( imię );
+CREATE INDEX indexOsobaDataUrodzenia ON osoba ( dataUrodzenia );
+CREATE UNIQUE INDEX indexSport ON sport ( id, nazwa );
+CREATE INDEX indexSport2 ON sport ( id, nazwa );
+CREATE UNIQUE INDEX indexInne ON inne ( nazwa, id );
+CREATE UNIQUE INDEX indexHobby ON hobby ( osoba, id, typ );
+
+	
+2.
+EXPLAIN SELECT imię, plec FROM osoba WHERE imie LIKE "A%";
+używa indexOsobaImie2
+
+EXPLAIN SELECT nazwa FROM sport WHERE typ = 'drużynowy' ORDER BY nazwa;
+bez kluczy
+
+EXPLAIN SELECT t1.id, t2.id FROM sport t1 INNER JOIN sport t2 ON t1.lokacja = t2.lokacja WHERE t1.typ = 'indywidualny' AND t2.typ = 'indywidualny' AND t1.id < t2.id;
+bez kluczy
+
+EXPLAIN SELECT nazwa, kategoria FROM polaczonehobby WHERE (id,kategoria) IN (SELECT * FROM (SELECT id, typ FROM hobby GROUP BY id, typ ORDER BY COUNT(*) DESC LIMIT 1) AS TMP);
+indexSport, indexInne, Primary hobby
+
+EXPLAIN SELECT imię FROM osoba o INNER JOIN zwierzak z ON o.id = z.ownerId WHERE z.species='dog' AND z.death IS NULL ORDER BY dataUrodzenia DESC LIMIT 1;
+Primary osoba
+
+
+
+3.
+
+CREATE TABLE zawody(
+   id INT NOT NULL AUTO_INCREMENT,
+   nazwa VARCHAR(100),
+   pensjaMin int,
+   pensjaMax int,      
+   PRIMARY KEY (id)
+);
+
+CREATE TABLE praca(
+   idZawod int,
+   idOsoba int,
+   zarobek int,
+   PRIMARY KEY (idZawod, idOsoba, zarobek)
+);
+
+
+
+DELIMITER $$
+CREATE PROCEDURE generujZawody (
+	IN num INT
+)
+BEGIN
+	DECLARE counter INT DEFAULT 0;
+	DECLARE pensjaMin INT DEFAULT 0;
+	DECLARE pensjaMax INT DEFAULT 0;
+	countLoop: LOOP
+		IF counter<num THEN
+			SET pensjaMin = (SELECT FLOOR(RAND()*(3000-2000+1))+2000);
+			SET pensjaMax = (SELECT FLOOR(RAND()*(5000-4000+1))+4000);
+			INSERT INTO zawody VALUES (NULL, LEFT(MD5(RAND()),6), pensjaMin, pensjaMax);
+			SET counter = counter + 1;
+			ITERATE countLoop;
+		END IF;
+		LEAVE countLoop;
+	END LOOP countLoop;
+END$$
+DELIMITER ;	
+
+CALL generujZawody(15);
+
+
+
+
+
+DROP TABLE IF EXISTS praca;
+CREATE TABLE praca(
+   idZawod int,
+   idOsoba int,
+   zarobek int,
+   PRIMARY KEY (idZawod, idOsoba, zarobek)
+);
+DROP PROCEDURE IF EXISTS generujPrace;
+DELIMITER $$
+CREATE PROCEDURE generujPrace ()
+BEGIN
+	DECLARE done INT DEFAULT FALSE;
+	DECLARE idOsoba int DEFAULT 0;
+	DECLARE idZawod int DEFAULT 0;
+	DECLARE pensjaMin INT DEFAULT 1;
+	DECLARE pensjaMax INT DEFAULT 1;
+	DECLARE zarobek INT DEFAULT 0;
+	DECLARE cursorOsoba CURSOR FOR SELECT id FROM osoba;
+	DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;
+	
+	OPEN cursorOsoba;
+	
+	readLoop: LOOP
+		FETCH cursorOsoba INTO idOsoba; 
+		IF done THEN
+			LEAVE readLoop;
+		END IF;
+		SET idZawod   = (SELECT id FROM zawody ORDER BY RAND() LIMIT 1);
+		SET pensjaMin = (SELECT zawody.pensjaMin FROM zawody WHERE id = idZawod);
+		SET pensjaMax = (SELECT zawody.pensjaMax FROM zawody WHERE id = idZawod);
+		SET zarobek   = (SELECT FLOOR(RAND()*(pensjaMax-pensjaMin+1))+pensjaMin);
+		INSERT INTO praca VALUES (idZawod, idOsoba, zarobek);
+	END LOOP;
+	CLOSE cursorOsoba;
+END$$
+DELIMITER ;	
+
+CALL generujPrace();
+
+4.
+
+DROP PROCEDURE IF EXISTS agreguj;
+DELIMITER $$
+CREATE PROCEDURE agreguj(IN agg VARCHAR(15), IN kol VARCHAR(50))
+BEGIN
+    IF agg IN ('COUNT', 'GROUP_CONCAT', 'MIN', 'MAX', 'AVG', 'STD', 'VAR_POP') AND
+       kol IN ('id', 'imię', 'nazwisko', 'dataUrodzenia', 'plec') THEN
+      SET @str = CONCAT('SELECT \'', kol, '\', \'', agg, '\', ', agg, '(', kol, ') ', 'FROM osoba;' ) ;
+	  IF kol in ('dataUrodzenia') AND agg in ('AVG','STD','VAR_POP') THEN 
+		 SET @str = CONCAT('SELECT \'', kol, '\', \'', agg, '\', ', 'TIMESTAMPDIFF(YEAR, FROM_UNIXTIME(', agg, '(UNIX_TIMESTAMP(', kol, '))), CURDATE()) ', 'FROM osoba;' ) ;
+	  END IF;
+	  SELECT @str;
+      PREPARE stmt FROM @str;
+      EXECUTE stmt;
+      DEALLOCATE PREPARE stmt;
+    ELSE
+      SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = "Don't try to hack.";
+    END IF;
+END$$
+DELIMITER ;
+
+CALL agreguj('COUNT','imię');
+CALL agreguj('AVG','dataUrodzenia');
+
+5. 
+
+CREATE TABLE hasła(
+   id INT NOT NULL AUTO_INCREMENT,
+   idOsoba int,
+   haslo varchar(50),
+   PRIMARY KEY (id)
+);
+
+
+
+CREATE VIEW randomDateLong AS SELECT DATE_FORMAT(
+	FROM_UNIXTIME(
+		unix_timestamp('1950-1-1') + floor(
+			rand() * (unix_timestamp('1999-12-31') - unix_timestamp('1950-1-1') + 1)
+		)
+	),
+	'%Y-%m-%d') AS date;
+
+
+
+
+DROP PROCEDURE IF EXISTS dostanDate;
+DELIMITER $$
+CREATE PROCEDURE dostanDate (
+	IN wprowadzoneImię varchar(50),
+	IN wprowadzoneHasło varchar(50)
+)
+BEGIN
+	DECLARE hash varchar(50);
+	DECLARE idOsoba int;
+	DECLARE autoryzacja int;
+	SET hash = (SELECT md5(wprowadzoneHasło));
+	SET idOsoba = (SELECT osoba.id FROM osoba WHERE osoba.imię = wprowadzoneImię);
+	SET autoryzacja = (SELECT COUNT(*) FROM hasła WHERE hasła.idOsoba=idOsoba AND hasła.haslo=hash);
+	IF autoryzacja > 0 THEN
+		SELECT dataUrodzenia FROM osoba WHERE osoba.id = idOsoba;
+	ELSE
+		SELECT date as dataUrodzenia FROM randomDateLong;
+	END IF;
+	
+END$$
+DELIMITER ;	
+
+
+CALL dostanDate('Gwen','olajestsuper');
+
+

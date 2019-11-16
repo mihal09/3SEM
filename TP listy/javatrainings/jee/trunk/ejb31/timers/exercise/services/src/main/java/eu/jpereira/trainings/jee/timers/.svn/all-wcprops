@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/299/jee/trunk/ejb31/timers/exercise/services/src/main/java/eu/jpereira/trainings/jee/timers
+END
+BookSellingReportingBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/297/jee/trunk/ejb31/timers/exercise/services/src/main/java/eu/jpereira/trainings/jee/timers/BookSellingReportingBean.java
+END
+BooksReportingBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/298/jee/trunk/ejb31/timers/exercise/services/src/main/java/eu/jpereira/trainings/jee/timers/BooksReportingBean.java
+END
+ReadersReportingBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/299/jee/trunk/ejb31/timers/exercise/services/src/main/java/eu/jpereira/trainings/jee/timers/ReadersReportingBean.java
+END
+AuthorsReportingBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/295/jee/trunk/ejb31/timers/exercise/services/src/main/java/eu/jpereira/trainings/jee/timers/AuthorsReportingBean.java
+END

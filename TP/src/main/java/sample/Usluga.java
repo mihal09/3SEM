@@ -15,45 +15,32 @@ public class Usluga {
         this.procentPodatku = procentPodatku;
     }
 
-    public double getKwotaNetto(){
-        return cenaUslugi * iloscUslug;
-    }
-    public double getKwotaVAT(){
-        return getKwotaNetto() * procentPodatku / 100.0;
-    }
-    public double getKwotaBrutto(){
-        return getKwotaNetto() + getKwotaVAT();
-    }
-
     public String getNazwaUslugi() {
         return nazwaUslugi;
-    }
-
-    public void setNazwaUslugi(String nazwaUslugi) {
-        this.nazwaUslugi = nazwaUslugi;
     }
 
     public Double getCenaUslugi() {
         return cenaUslugi;
     }
 
-    public void setCenaUslugi(Double cenaUslugi) {
-        this.cenaUslugi = cenaUslugi;
-    }
-
     public Integer getIloscUslug() {
         return iloscUslug;
-    }
-
-    public void setIloscUslug(Integer iloscUslug) {
-        this.iloscUslug = iloscUslug;
     }
 
     public Double getProcentPodatku() {
         return procentPodatku;
     }
 
-    public void setProcentPodatku(Double procentPodatku) {
-        this.procentPodatku = procentPodatku;
+    public double getKwotaNetto(){
+        return cenaUslugi * iloscUslug;
     }
-}
+
+    public double getKwotaVAT(){
+        return getKwotaNetto() * procentPodatku / 100.0;
+    }
+
+    public double getKwotaBrutto(){
+        return getKwotaNetto() + getKwotaVAT();
+    }
+
+   }

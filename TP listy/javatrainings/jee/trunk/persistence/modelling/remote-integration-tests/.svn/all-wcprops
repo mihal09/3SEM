@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/320/jee/trunk/persistence/modelling/remote-integration-tests
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/316/jee/trunk/persistence/modelling/remote-integration-tests/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/316/jee/trunk/persistence/modelling/remote-integration-tests/.project
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/316/jee/trunk/persistence/modelling/remote-integration-tests/pom.xml
+END

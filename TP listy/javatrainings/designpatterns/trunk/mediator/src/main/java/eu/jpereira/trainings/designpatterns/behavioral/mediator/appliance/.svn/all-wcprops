@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/142/designpatterns/trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/appliance
+END
+ApplianceCommunicationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/139/designpatterns/trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/appliance/ApplianceCommunicationException.java
+END
+Appliance.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/139/designpatterns/trunk/mediator/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/mediator/appliance/Appliance.java
+END

@@ -1,0 +1,77 @@
+10
+
+dir
+367
+http://javatrainings.googlecode.com/svn/jee/trunk/persistence/settingup
+http://javatrainings.googlecode.com/svn
+
+
+
+2012-02-23T16:48:56.211359Z
+314
+joaomiguel.pereira@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+737e350e-228b-7272-34ae-3263785c5075
+
+services
+dir
+
+ear
+dir
+
+pom.xml
+file
+
+
+
+
+2016-02-13T19:56:32.097997Z
+bdf50f3872ff794b66944edf9c7232e3
+2012-02-23T13:08:17.154382Z
+304
+joaomiguel.pereira@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5285
+
+mysqlconfig
+dir
+
+remote-integration-tests
+dir
+
+model
+dir
+

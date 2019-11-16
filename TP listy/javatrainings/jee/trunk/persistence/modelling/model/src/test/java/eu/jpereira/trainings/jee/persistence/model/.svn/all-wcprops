@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/326/jee/trunk/persistence/modelling/model/src/test/java/eu/jpereira/trainings/jee/persistence/model
+END
+HSQLHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/324/jee/trunk/persistence/modelling/model/src/test/java/eu/jpereira/trainings/jee/persistence/model/HSQLHelper.java
+END
+DomainObjectTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/324/jee/trunk/persistence/modelling/model/src/test/java/eu/jpereira/trainings/jee/persistence/model/DomainObjectTest.java
+END
+TestConfigurator.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/325/jee/trunk/persistence/modelling/model/src/test/java/eu/jpereira/trainings/jee/persistence/model/TestConfigurator.java
+END
+PersistenceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/324/jee/trunk/persistence/modelling/model/src/test/java/eu/jpereira/trainings/jee/persistence/model/PersistenceTest.java
+END
+TestDBHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/324/jee/trunk/persistence/modelling/model/src/test/java/eu/jpereira/trainings/jee/persistence/model/TestDBHelper.java
+END

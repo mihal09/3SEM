@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/294/jee/trunk/ejb31/timers/exercise/services/src/main/java/eu/jpereira/trainings/jee/timers/service
+END
+DefaultTimeoutCounterFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/294/jee/trunk/ejb31/timers/exercise/services/src/main/java/eu/jpereira/trainings/jee/timers/service/DefaultTimeoutCounterFacade.java
+END
+TimeoutCounter.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/292/jee/trunk/ejb31/timers/exercise/services/src/main/java/eu/jpereira/trainings/jee/timers/service/TimeoutCounter.java
+END
+TimeoutCounterFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/292/jee/trunk/ejb31/timers/exercise/services/src/main/java/eu/jpereira/trainings/jee/timers/service/TimeoutCounterFacade.java
+END

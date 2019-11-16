@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/8/programmerTesting/trunk/gpstore/src/main/java/eu/jpereira/trainings/gpstore/model
+END
+AbstractEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/8/programmerTesting/trunk/gpstore/src/main/java/eu/jpereira/trainings/gpstore/model/AbstractEntity.java
+END
+Department.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/8/programmerTesting/trunk/gpstore/src/main/java/eu/jpereira/trainings/gpstore/model/Department.java
+END
+GPStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/8/programmerTesting/trunk/gpstore/src/main/java/eu/jpereira/trainings/gpstore/model/GPStore.java
+END
+SaleableItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/8/programmerTesting/trunk/gpstore/src/main/java/eu/jpereira/trainings/gpstore/model/SaleableItem.java
+END
+ItemCategory.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/8/programmerTesting/trunk/gpstore/src/main/java/eu/jpereira/trainings/gpstore/model/ItemCategory.java
+END

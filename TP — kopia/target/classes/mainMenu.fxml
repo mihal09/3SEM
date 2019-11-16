@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Generator faktur" textAlignment="CENTER" wrappingWidth="1101.6032104492188">
+         <font>
+            <Font name="SansSerif Regular" size="63.0" />
+         </font>
+      </Text>
+      <Button id="buttonStworzNowaFakture" layoutX="405.0" layoutY="420.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="317.0" text="Dodaj nową fakturę" AnchorPane.leftAnchor="380.0">
+         <font>
+            <Font name="SansSerif Regular" size="28.0" />
+         </font>
+      </Button>
+      <Button id="buttonWyswietlFaktury" layoutX="414.0" layoutY="570.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="317.0" text="Wyświetl faktury" AnchorPane.leftAnchor="380.0">
+         <font>
+            <Font name="SansSerif Regular" size="28.0" />
+         </font>
+      </Button>
+      <Button id="buttonStworzNowegoKlienta" layoutX="397.0" layoutY="270.0" mnemonicParsing="false" prefHeight="90.0" prefWidth="317.0" text="Dodaj nowego klienta" AnchorPane.leftAnchor="380.0">
+         <font>
+            <Font name="SansSerif Regular" size="28.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

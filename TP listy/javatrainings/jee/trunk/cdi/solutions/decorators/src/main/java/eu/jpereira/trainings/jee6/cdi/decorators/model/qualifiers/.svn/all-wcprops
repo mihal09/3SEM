@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/decorators/src/main/java/eu/jpereira/trainings/jee6/cdi/decorators/model/qualifiers
+END
+StudentAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/decorators/src/main/java/eu/jpereira/trainings/jee6/cdi/decorators/model/qualifiers/StudentAccount.java
+END
+GoodAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/decorators/src/main/java/eu/jpereira/trainings/jee6/cdi/decorators/model/qualifiers/GoodAccount.java
+END
+StandardAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/decorators/src/main/java/eu/jpereira/trainings/jee6/cdi/decorators/model/qualifiers/StandardAccount.java
+END

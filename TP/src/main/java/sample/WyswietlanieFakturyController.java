@@ -15,14 +15,12 @@ import javafx.collections.ObservableList;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class WyswietlanieFakturyController {
+class WyswietlanieFakturyController {
     private final Scene scene;
-    private final MainController mainController;
     private TableView<Usluga> tableViewFaktury;
     private ArrayList<Klient> arrayListKlienci;
     private ListView<String> listViewKlienci;
     private String nazwaKlienta;
-    private Klient wybranyKlient;
     private ArrayList<Faktura> wybraneFaktury;
     private ListView<Integer> listViewNumeryFaktur;
 
@@ -30,7 +28,6 @@ public class WyswietlanieFakturyController {
         Parent parent = FXMLLoader.load(getClass().getResource("/wyswietlanieFaktury.fxml"));
         scene = new Scene(parent, 1100, 850);
         final ObliczCeneFaktury obliczCeneFaktury = new ObliczCeneFaktury();
-        this.mainController = mainController;
         tableViewFaktury = (TableView<Usluga>) parent.lookup("#tableViewFaktury");
         TableColumn<Usluga, String> name = new TableColumn<Usluga, String>("Nazwa");
         TableColumn<Usluga, Integer> liczba = new TableColumn<Usluga, Integer>("Liczba");
@@ -45,7 +42,6 @@ public class WyswietlanieFakturyController {
         brutto.setCellValueFactory(new PropertyValueFactory<Usluga,Double>("KwotaBrutto"));
         tableViewFaktury.getColumns().addAll(name,liczba,netto,vat,brutto);
 
-        Button buttonWyswietl = (Button) parent.lookup("#buttonWyswietl");
 
         Button buttonPowrot = (Button) parent.lookup("#buttonPowrot");
 
@@ -62,22 +58,13 @@ public class WyswietlanieFakturyController {
             }
         });
 
-        buttonWyswietl.setOnAction(new EventHandler<ActionEvent>() {
-            public void handle(ActionEvent event) {
-                Faktura f = ResourceManager.getInstance().getFakturyStorage().zwrocFaktury().get(0);
-                odswiezListe(f);
-                labelZaplata.setText(String.valueOf(obliczCeneFaktury.policzCene(f)));
-
-            }
-        });
-
 
         listViewKlienci.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
 
             public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
                 wybraneFaktury.clear();
                 nazwaKlienta = newValue;
-                wybranyKlient = ResourceManager.getInstance().getKlientStorage().znajdzKlientaNazwa(nazwaKlienta);
+                //wybranyKlient = ResourceManager.getInstance().getKlientStorage().znajdzKlientaNazwa(nazwaKlienta);
                 for(Faktura faktura: ResourceManager.getInstance().getFakturyStorage().zwrocFaktury()){
                     try {
                         if (faktura.zwrocKlienta().getNazwa().equals(nazwaKlienta))

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/112/designpatterns/trunk/command/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/command/fakes
+END
+FakeInstanceGroupDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/112/designpatterns/trunk/command/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/FakeInstanceGroupDAO.java
+END
+FakeDBServerInstanceCommandFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/112/designpatterns/trunk/command/src/test/java/eu/jpereira/trainings/designpatterns/behavioral/command/fakes/FakeDBServerInstanceCommandFactory.java
+END

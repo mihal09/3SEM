@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/202/jee/trunk/ejb31/async/solution/bookstore/web/src/main/webapp/authors
+END
+new.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/202/jee/trunk/ejb31/async/solution/bookstore/web/src/main/webapp/authors/new.xhtml
+END
+list.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/202/jee/trunk/ejb31/async/solution/bookstore/web/src/main/webapp/authors/list.xhtml
+END
+discover.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/202/jee/trunk/ejb31/async/solution/bookstore/web/src/main/webapp/authors/discover.xhtml
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/queues/services/src/main/java/eu/jpereira/trainings/jee/mdb/queues/model/jobs
+END
+ProcessOrderJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/queues/services/src/main/java/eu/jpereira/trainings/jee/mdb/queues/model/jobs/ProcessOrderJob.java
+END
+JobExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/queues/services/src/main/java/eu/jpereira/trainings/jee/mdb/queues/model/jobs/JobExecutor.java
+END
+Job.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/queues/services/src/main/java/eu/jpereira/trainings/jee/mdb/queues/model/jobs/Job.java
+END
+AbstractJobExecutor.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/queues/services/src/main/java/eu/jpereira/trainings/jee/mdb/queues/model/jobs/AbstractJobExecutor.java
+END

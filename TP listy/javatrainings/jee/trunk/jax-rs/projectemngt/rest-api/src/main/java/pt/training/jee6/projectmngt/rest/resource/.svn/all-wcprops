@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/rest-api/src/main/java/pt/training/jee6/projectmngt/rest/resource
+END
+AbstractResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/rest-api/src/main/java/pt/training/jee6/projectmngt/rest/resource/AbstractResource.java
+END
+ErrorDescription.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/rest-api/src/main/java/pt/training/jee6/projectmngt/rest/resource/ErrorDescription.java
+END
+ProjectResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/rest-api/src/main/java/pt/training/jee6/projectmngt/rest/resource/ProjectResource.java
+END
+ProjectDocumentListing.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/rest-api/src/main/java/pt/training/jee6/projectmngt/rest/resource/ProjectDocumentListing.java
+END
+ProjectListing.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/rest-api/src/main/java/pt/training/jee6/projectmngt/rest/resource/ProjectListing.java
+END
+RestResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/rest-api/src/main/java/pt/training/jee6/projectmngt/rest/resource/RestResource.java
+END
+DocumentResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/rest-api/src/main/java/pt/training/jee6/projectmngt/rest/resource/DocumentResource.java
+END

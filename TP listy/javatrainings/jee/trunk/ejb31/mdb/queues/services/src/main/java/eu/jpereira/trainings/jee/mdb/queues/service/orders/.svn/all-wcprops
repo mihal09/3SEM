@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/queues/services/src/main/java/eu/jpereira/trainings/jee/mdb/queues/service/orders
+END
+OrdersRemoteFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/queues/services/src/main/java/eu/jpereira/trainings/jee/mdb/queues/service/orders/OrdersRemoteFacade.java
+END
+OrdersService.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/queues/services/src/main/java/eu/jpereira/trainings/jee/mdb/queues/service/orders/OrdersService.java
+END

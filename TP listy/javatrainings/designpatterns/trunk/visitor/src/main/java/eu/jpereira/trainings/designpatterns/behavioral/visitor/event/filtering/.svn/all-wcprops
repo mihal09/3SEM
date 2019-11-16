@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/166/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/filtering
+END
+EventFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/166/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/filtering/EventFilter.java
+END
+Filterable.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/166/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/filtering/Filterable.java
+END
+HumidityAlarmFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/166/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/filtering/HumidityAlarmFilter.java
+END
+TemperatureAlarmFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/166/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/filtering/TemperatureAlarmFilter.java
+END

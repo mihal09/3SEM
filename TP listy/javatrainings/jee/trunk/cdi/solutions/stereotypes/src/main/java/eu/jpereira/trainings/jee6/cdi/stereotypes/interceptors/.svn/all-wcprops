@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/stereotypes/src/main/java/eu/jpereira/trainings/jee6/cdi/stereotypes/interceptors
+END
+LoggedElapsedTimeInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/stereotypes/src/main/java/eu/jpereira/trainings/jee6/cdi/stereotypes/interceptors/LoggedElapsedTimeInterceptor.java
+END
+LoggedParametersInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/stereotypes/src/main/java/eu/jpereira/trainings/jee6/cdi/stereotypes/interceptors/LoggedParametersInterceptor.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/206/jee/trunk/jeequickstart/business-test/src/test/resources
+END
+logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/206/jee/trunk/jeequickstart/business-test/src/test/resources/logging.properties
+END
+domain.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/206/jee/trunk/jeequickstart/business-test/src/test/resources/domain.xml
+END
+logback-test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206/jee/trunk/jeequickstart/business-test/src/test/resources/logback-test.xml
+END

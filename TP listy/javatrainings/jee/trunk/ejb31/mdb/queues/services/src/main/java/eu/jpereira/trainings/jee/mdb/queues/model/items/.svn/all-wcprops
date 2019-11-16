@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/queues/services/src/main/java/eu/jpereira/trainings/jee/mdb/queues/model/items
+END
+DefaultItemsDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/queues/services/src/main/java/eu/jpereira/trainings/jee/mdb/queues/model/items/DefaultItemsDAO.java
+END
+Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/queues/services/src/main/java/eu/jpereira/trainings/jee/mdb/queues/model/items/Item.java
+END
+Items.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/queues/services/src/main/java/eu/jpereira/trainings/jee/mdb/queues/model/items/Items.java
+END

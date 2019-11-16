@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/145/designpatterns/trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/appliance
+END
+Appliance.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/145/designpatterns/trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/appliance/Appliance.java
+END
+ApplianceCommunicationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/145/designpatterns/trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/appliance/ApplianceCommunicationException.java
+END

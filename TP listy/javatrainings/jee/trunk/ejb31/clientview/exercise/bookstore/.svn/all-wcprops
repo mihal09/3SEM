@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/280/jee/trunk/ejb31/clientview/exercise/bookstore
+END
+deploy_jboss.bat
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/242/jee/trunk/ejb31/clientview/exercise/bookstore/deploy_jboss.bat
+END
+deploy_jboss.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/270/jee/trunk/ejb31/clientview/exercise/bookstore/deploy_jboss.sh
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/280/jee/trunk/ejb31/clientview/exercise/bookstore/pom.xml
+END

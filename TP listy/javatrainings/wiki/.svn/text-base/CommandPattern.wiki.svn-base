@@ -1,0 +1,28 @@
+= Introduction =
+
+ # Go to the  ${project.dir} directory
+{{{
+cd  ${project.dir}
+}}}
+ # Checkout the code from code.google.com
+{{{
+
+svn checkout http://javatrainings.googlecode.com/svn/designpatterns/trunk/command
+}}}
+ # Enter the created directory and run the tests to check that everything is ok. (Erros in the tests is OK and only means that you should fix them)
+{{{
+mvn test
+}}}
+ # Enter the created folder and generate the eclipse project
+{{{
+mvn eclipse:eclipse
+}}}
+
+ # Open API Javadocs - http://jpereira.eu/labs//trainings/designpatterns/code/command/site/apidocs/
+ 
+ # Analyze javadocs and code
+
+
+
+ # Open Javadoc for <b>QueryInstanceStatusCommandTest</b> -  http://jpereira.eu/labs/trainings/designpatterns/code/command/site/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/QueryInstanceStatusCommandTest.html
+ # Follow the steps described

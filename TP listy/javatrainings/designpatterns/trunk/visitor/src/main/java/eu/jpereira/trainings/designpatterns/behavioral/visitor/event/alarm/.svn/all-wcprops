@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/166/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/alarm
+END
+LowBateryAlarm.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/166/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/alarm/LowBateryAlarm.java
+END
+HumidityAlarm.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/166/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/alarm/HumidityAlarm.java
+END
+TemperatureAlarm.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/165/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/alarm/TemperatureAlarm.java
+END

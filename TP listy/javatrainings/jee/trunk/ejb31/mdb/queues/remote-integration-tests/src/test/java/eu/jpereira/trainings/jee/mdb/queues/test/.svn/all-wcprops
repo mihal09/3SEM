@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/queues/remote-integration-tests/src/test/java/eu/jpereira/trainings/jee/mdb/queues/test
+END
+RemoteEJBTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/queues/remote-integration-tests/src/test/java/eu/jpereira/trainings/jee/mdb/queues/test/RemoteEJBTest.java
+END
+RemoteStatelessBeanTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/337/jee/trunk/ejb31/mdb/queues/remote-integration-tests/src/test/java/eu/jpereira/trainings/jee/mdb/queues/test/RemoteStatelessBeanTest.java
+END

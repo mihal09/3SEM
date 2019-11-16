@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/291/jee/trunk/jeetesting/business-test
+END
+test.log
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/291/jee/trunk/jeetesting/business-test/test.log
+END
+derby.log
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/291/jee/trunk/jeetesting/business-test/derby.log
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/291/jee/trunk/jeetesting/business-test/pom.xml
+END

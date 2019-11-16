@@ -1,0 +1,49 @@
+10
+
+dir
+367
+http://javatrainings.googlecode.com/svn/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor
+http://javatrainings.googlecode.com/svn
+
+
+
+2011-11-03T00:22:40.962215Z
+166
+joaomiguel.pereira@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+737e350e-228b-7272-34ae-3263785c5075
+
+alarming
+dir
+
+observers
+dir
+
+appliance
+dir
+
+command
+dir
+
+event
+dir
+
+interpreter
+dir
+
+mapper
+dir
+

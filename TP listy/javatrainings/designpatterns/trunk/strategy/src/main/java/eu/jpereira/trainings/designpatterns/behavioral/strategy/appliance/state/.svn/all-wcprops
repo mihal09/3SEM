@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state
+END
+OffState.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state/OffState.java
+END
+ApplianceStateBehavior.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state/ApplianceStateBehavior.java
+END
+OnState.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state/OnState.java
+END
+ApplianceState.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state/ApplianceState.java
+END
+StoppedState.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state/StoppedState.java
+END
+AbstractApplianceStateBehavior.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state/AbstractApplianceStateBehavior.java
+END
+UnknowState.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state/UnknowState.java
+END
+StartedState.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/appliance/state/StartedState.java
+END

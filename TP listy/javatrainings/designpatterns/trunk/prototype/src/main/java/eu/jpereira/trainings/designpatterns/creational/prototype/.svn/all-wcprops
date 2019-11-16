@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/27/designpatterns/trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype
+END
+VehicleBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/27/designpatterns/trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/VehicleBuilder.java
+END
+VehiclePart.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/25/designpatterns/trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/VehiclePart.java
+END
+Client.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/25/designpatterns/trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/Client.java
+END
+SimpleVehicleBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/27/designpatterns/trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/SimpleVehicleBuilder.java
+END

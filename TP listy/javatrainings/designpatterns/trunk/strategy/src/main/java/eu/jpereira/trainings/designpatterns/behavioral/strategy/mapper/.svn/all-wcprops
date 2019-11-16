@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/mapper
+END
+ApplianceEventMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/mapper/ApplianceEventMapper.java
+END
+EventMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/mapper/EventMapper.java
+END
+LinkedListQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/mapper/LinkedListQueue.java
+END
+MapperChain.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/mapper/MapperChain.java
+END

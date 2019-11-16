@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/ejb/src/main/java/pt/training/jee6/projectmngt/service
+END
+ProjectMngtService.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/ejb/src/main/java/pt/training/jee6/projectmngt/service/ProjectMngtService.java
+END
+EmployeeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/ejb/src/main/java/pt/training/jee6/projectmngt/service/EmployeeService.java
+END
+CustomerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/ejb/src/main/java/pt/training/jee6/projectmngt/service/CustomerService.java
+END
+HasProjects.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/ejb/src/main/java/pt/training/jee6/projectmngt/service/HasProjects.java
+END
+ProjectService.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/ejb/src/main/java/pt/training/jee6/projectmngt/service/ProjectService.java
+END

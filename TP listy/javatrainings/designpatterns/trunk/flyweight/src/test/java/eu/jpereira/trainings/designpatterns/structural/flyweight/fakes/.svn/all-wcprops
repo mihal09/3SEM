@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/85/designpatterns/trunk/flyweight/src/test/java/eu/jpereira/trainings/designpatterns/structural/flyweight/fakes
+END
+FakeWeatherStationController.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/82/designpatterns/trunk/flyweight/src/test/java/eu/jpereira/trainings/designpatterns/structural/flyweight/fakes/FakeWeatherStationController.java
+END
+FakeHTTPServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/81/designpatterns/trunk/flyweight/src/test/java/eu/jpereira/trainings/designpatterns/structural/flyweight/fakes/FakeHTTPServer.java
+END
+FakeCityDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/76/designpatterns/trunk/flyweight/src/test/java/eu/jpereira/trainings/designpatterns/structural/flyweight/fakes/FakeCityDao.java
+END
+FakeHTTPHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/79/designpatterns/trunk/flyweight/src/test/java/eu/jpereira/trainings/designpatterns/structural/flyweight/fakes/FakeHTTPHandler.java
+END
+FakeWeatherStationControllerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/84/designpatterns/trunk/flyweight/src/test/java/eu/jpereira/trainings/designpatterns/structural/flyweight/fakes/FakeWeatherStationControllerFactory.java
+END
+FakeWeatherService.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/85/designpatterns/trunk/flyweight/src/test/java/eu/jpereira/trainings/designpatterns/structural/flyweight/fakes/FakeWeatherService.java
+END

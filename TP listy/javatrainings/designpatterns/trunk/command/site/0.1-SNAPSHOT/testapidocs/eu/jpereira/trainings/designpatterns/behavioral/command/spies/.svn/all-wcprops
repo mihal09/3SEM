@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/121/designpatterns/trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/121/designpatterns/trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/package-frame.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/121/designpatterns/trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/package-use.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/121/designpatterns/trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/121/designpatterns/trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/package-tree.html
+END
+SpyCommandScheduler.html
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/121/designpatterns/trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/SpyCommandScheduler.html
+END
+SpyDBServerInstanceGroup.html
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/121/designpatterns/trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/SpyDBServerInstanceGroup.html
+END
+SpyDBServerInstance.html
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/121/designpatterns/trunk/command/site/0.1-SNAPSHOT/testapidocs/eu/jpereira/trainings/designpatterns/behavioral/command/spies/SpyDBServerInstance.html
+END

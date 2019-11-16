@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/208/jee/trunk/ejb31/singleton/solution/bookstore/web/src/main/webapp/WEB-INF
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/208/jee/trunk/ejb31/singleton/solution/bookstore/web/src/main/webapp/WEB-INF/web.xml
+END
+faces-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/208/jee/trunk/ejb31/singleton/solution/bookstore/web/src/main/webapp/WEB-INF/faces-config.xml
+END
+beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/208/jee/trunk/ejb31/singleton/solution/bookstore/web/src/main/webapp/WEB-INF/beans.xml
+END

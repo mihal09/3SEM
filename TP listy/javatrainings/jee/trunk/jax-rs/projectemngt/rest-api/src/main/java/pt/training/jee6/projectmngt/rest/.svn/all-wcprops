@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/rest-api/src/main/java/pt/training/jee6/projectmngt/rest
+END
+EmployeeRestService.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/rest-api/src/main/java/pt/training/jee6/projectmngt/rest/EmployeeRestService.java
+END
+ProjectMngtApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/rest-api/src/main/java/pt/training/jee6/projectmngt/rest/ProjectMngtApplication.java
+END
+AbstractRestService.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/rest-api/src/main/java/pt/training/jee6/projectmngt/rest/AbstractRestService.java
+END
+ProjectRestService.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/353/jee/trunk/jax-rs/projectemngt/rest-api/src/main/java/pt/training/jee6/projectmngt/rest/ProjectRestService.java
+END

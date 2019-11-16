@@ -1,0 +1,77 @@
+10
+
+dir
+367
+http://javatrainings.googlecode.com/svn/jee/trunk/persistence/modelling
+http://javatrainings.googlecode.com/svn
+
+
+
+2012-02-26T14:59:06.228038Z
+330
+joaomiguel.pereira@gmail.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+737e350e-228b-7272-34ae-3263785c5075
+
+services
+dir
+
+ear
+dir
+
+pom.xml
+file
+
+
+
+
+2016-02-13T19:56:32.529982Z
+b79c3e4d504bbfe3f04831f2433c1f46
+2012-02-24T15:50:52.609131Z
+316
+joaomiguel.pereira@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5471
+
+mysqlconfig
+dir
+
+remote-integration-tests
+dir
+
+model
+dir
+

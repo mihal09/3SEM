@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/injection/src/main/java/eu/jpereira/trainings/jee6/cdi/injection/beans
+END
+Joker.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/injection/src/main/java/eu/jpereira/trainings/jee6/cdi/injection/beans/Joker.java
+END
+LotteryManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/injection/src/main/java/eu/jpereira/trainings/jee6/cdi/injection/beans/LotteryManager.java
+END
+EuroMillion.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/injection/src/main/java/eu/jpereira/trainings/jee6/cdi/injection/beans/EuroMillion.java
+END
+Lottery.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/injection/src/main/java/eu/jpereira/trainings/jee6/cdi/injection/beans/Lottery.java
+END
+AbstractLottery.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/195/jee/trunk/cdi/solutions/injection/src/main/java/eu/jpereira/trainings/jee6/cdi/injection/beans/AbstractLottery.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/27/designpatterns/trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/exception
+END
+CouldNotCloneLastObjectException.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/!svn/ver/25/designpatterns/trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/exception/CouldNotCloneLastObjectException.java
+END
+VehicleDoesNotHavePartsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/!svn/ver/25/designpatterns/trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/exception/VehicleDoesNotHavePartsException.java
+END
+CannotHaveZeroPartsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/27/designpatterns/trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/exception/CannotHaveZeroPartsException.java
+END
+NeedToPackLastVehicleException.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/25/designpatterns/trunk/prototype/src/main/java/eu/jpereira/trainings/designpatterns/creational/prototype/exception/NeedToPackLastVehicleException.java
+END

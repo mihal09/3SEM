@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/event
+END
+EventData.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/event/EventData.java
+END
+AttributeChangeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/event/AttributeChangeEvent.java
+END
+Alarm.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/event/Alarm.java
+END
+ApplianceEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/162/designpatterns/trunk/strategy/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/strategy/event/ApplianceEvent.java
+END

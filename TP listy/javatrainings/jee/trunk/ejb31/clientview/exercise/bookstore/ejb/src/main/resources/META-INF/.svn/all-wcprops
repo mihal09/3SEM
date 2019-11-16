@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/275/jee/trunk/ejb31/clientview/exercise/bookstore/ejb/src/main/resources/META-INF
+END
+ejb-jar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/275/jee/trunk/ejb31/clientview/exercise/bookstore/ejb/src/main/resources/META-INF/ejb-jar.xml
+END
+persistence.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/236/jee/trunk/ejb31/clientview/exercise/bookstore/ejb/src/main/resources/META-INF/persistence.xml
+END

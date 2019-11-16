@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/79/designpatterns/trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/model
+END
+ModelObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/76/designpatterns/trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/model/ModelObject.java
+END
+City.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/76/designpatterns/trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/model/City.java
+END
+WeatherZone.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/76/designpatterns/trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/model/WeatherZone.java
+END
+WeatherStation.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/79/designpatterns/trunk/flyweight/src/main/java/eu/jpereira/trainings/designpatterns/structural/flyweight/model/WeatherStation.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/121/designpatterns/trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/!svn/ver/121/designpatterns/trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/package-tree.html
+END
+CouldNotStartInstanceException.html
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/!svn/ver/121/designpatterns/trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/CouldNotStartInstanceException.html
+END
+CouldNotConnectException.html
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/!svn/ver/121/designpatterns/trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/CouldNotConnectException.html
+END
+NotUniqueDBInstanceException.html
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/!svn/ver/121/designpatterns/trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/NotUniqueDBInstanceException.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/121/designpatterns/trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/package-frame.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/121/designpatterns/trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/package-use.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/121/designpatterns/trunk/command/site/0.1-SNAPSHOT/apidocs/eu/jpereira/trainings/designpatterns/behavioral/command/model/exceptions/package-summary.html
+END

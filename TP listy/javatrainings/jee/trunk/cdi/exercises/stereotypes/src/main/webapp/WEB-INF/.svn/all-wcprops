@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/192/jee/trunk/cdi/exercises/stereotypes/src/main/webapp/WEB-INF
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/192/jee/trunk/cdi/exercises/stereotypes/src/main/webapp/WEB-INF/web.xml
+END
+faces-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/192/jee/trunk/cdi/exercises/stereotypes/src/main/webapp/WEB-INF/faces-config.xml
+END
+beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/192/jee/trunk/cdi/exercises/stereotypes/src/main/webapp/WEB-INF/beans.xml
+END

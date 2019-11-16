@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/202/jee/trunk/ejb31/async/solution/bookstore/ejb/src/main/java/eu/jpereira/trainings/jee6/ejb/async/bookstore/service/data
+END
+CloudPersistenceDataStoreBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/!svn/ver/202/jee/trunk/ejb31/async/solution/bookstore/ejb/src/main/java/eu/jpereira/trainings/jee6/ejb/async/bookstore/service/data/CloudPersistenceDataStoreBean.java
+END
+PersistentDataStoreBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/202/jee/trunk/ejb31/async/solution/bookstore/ejb/src/main/java/eu/jpereira/trainings/jee6/ejb/async/bookstore/service/data/PersistentDataStoreBean.java
+END
+MemoryDataStoreBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/202/jee/trunk/ejb31/async/solution/bookstore/ejb/src/main/java/eu/jpereira/trainings/jee6/ejb/async/bookstore/service/data/MemoryDataStoreBean.java
+END

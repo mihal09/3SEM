@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/208/jee/trunk/ejb31/singleton/exercise/bookstore/ejb/src/main/java/eu/jpereira/trainings/jee6/ejb/singleton/bookstore/service/authors
+END
+AuthorService.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/208/jee/trunk/ejb31/singleton/exercise/bookstore/ejb/src/main/java/eu/jpereira/trainings/jee6/ejb/singleton/bookstore/service/authors/AuthorService.java
+END
+AuthorServiceBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/!svn/ver/208/jee/trunk/ejb31/singleton/exercise/bookstore/ejb/src/main/java/eu/jpereira/trainings/jee6/ejb/singleton/bookstore/service/authors/AuthorServiceBean.java
+END

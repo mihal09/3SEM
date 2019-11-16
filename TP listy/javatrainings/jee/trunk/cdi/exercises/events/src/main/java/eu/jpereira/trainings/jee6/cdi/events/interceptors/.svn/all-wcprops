@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/192/jee/trunk/cdi/exercises/events/src/main/java/eu/jpereira/trainings/jee6/cdi/events/interceptors
+END
+LoggedElapsedTimeInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/192/jee/trunk/cdi/exercises/events/src/main/java/eu/jpereira/trainings/jee6/cdi/events/interceptors/LoggedElapsedTimeInterceptor.java
+END
+LoggedParametersInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/192/jee/trunk/cdi/exercises/events/src/main/java/eu/jpereira/trainings/jee6/cdi/events/interceptors/LoggedParametersInterceptor.java
+END

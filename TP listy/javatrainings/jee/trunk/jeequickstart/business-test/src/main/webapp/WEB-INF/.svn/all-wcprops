@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/206/jee/trunk/jeequickstart/business-test/src/main/webapp/WEB-INF
+END
+beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/206/jee/trunk/jeequickstart/business-test/src/main/webapp/WEB-INF/beans.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/206/jee/trunk/jeequickstart/business-test/src/main/webapp/WEB-INF/web.xml
+END
+sun-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/206/jee/trunk/jeequickstart/business-test/src/main/webapp/WEB-INF/sun-web.xml
+END

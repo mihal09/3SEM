@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/296/jee/trunk/ejb31/timers/exercise/services/src/main/resources/META-INF
+END
+persistence.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/292/jee/trunk/ejb31/timers/exercise/services/src/main/resources/META-INF/persistence.xml
+END
+ejb-jar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/296/jee/trunk/ejb31/timers/exercise/services/src/main/resources/META-INF/ejb-jar.xml
+END

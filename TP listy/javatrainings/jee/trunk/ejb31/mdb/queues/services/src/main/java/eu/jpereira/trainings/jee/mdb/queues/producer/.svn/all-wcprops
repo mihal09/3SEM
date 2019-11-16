@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/352/jee/trunk/ejb31/mdb/queues/services/src/main/java/eu/jpereira/trainings/jee/mdb/queues/producer
+END
+ScheduledOrderJobCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/352/jee/trunk/ejb31/mdb/queues/services/src/main/java/eu/jpereira/trainings/jee/mdb/queues/producer/ScheduledOrderJobCreator.java
+END
+JobsSubmitter.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/352/jee/trunk/ejb31/mdb/queues/services/src/main/java/eu/jpereira/trainings/jee/mdb/queues/producer/JobsSubmitter.java
+END

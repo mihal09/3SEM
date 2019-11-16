@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/145/designpatterns/trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command
+END
+StopApplianceCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/145/designpatterns/trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/StopApplianceCommand.java
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/145/designpatterns/trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/Event.java
+END
+TurnOnApplianceCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/145/designpatterns/trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/TurnOnApplianceCommand.java
+END
+AbstractCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/145/designpatterns/trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/AbstractCommand.java
+END
+UndoableCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/145/designpatterns/trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/UndoableCommand.java
+END
+CouldNotExecuteCommandException.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/145/designpatterns/trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/CouldNotExecuteCommandException.java
+END
+StartApplianceCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/145/designpatterns/trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/StartApplianceCommand.java
+END
+Command.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/145/designpatterns/trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/Command.java
+END
+CouldNotRollbackCommandException.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/!svn/ver/145/designpatterns/trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/CouldNotRollbackCommandException.java
+END
+TurnOffAppliance.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/145/designpatterns/trunk/memento/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/memento/command/TurnOffAppliance.java
+END

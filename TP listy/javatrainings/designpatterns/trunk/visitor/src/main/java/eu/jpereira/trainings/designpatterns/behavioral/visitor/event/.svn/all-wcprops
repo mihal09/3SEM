@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/166/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event
+END
+ApplianceEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/165/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/ApplianceEvent.java
+END
+EventType.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/164/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/EventType.java
+END
+EventData.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/164/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/EventData.java
+END
+AttributeChangeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/164/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/AttributeChangeEvent.java
+END
+Alarm.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/165/designpatterns/trunk/visitor/src/main/java/eu/jpereira/trainings/designpatterns/behavioral/visitor/event/Alarm.java
+END
